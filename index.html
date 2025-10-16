@@ -20,7 +20,7 @@
         }
         
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
@@ -138,7 +138,7 @@
             position: relative;
             margin-bottom: 30px;
             background: #f8f9fa;
-            padding: 20px;
+            padding: 25px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
@@ -147,7 +147,7 @@
             content: '';
             position: absolute;
             right: -28px;
-            top: 25px;
+            top: 30px;
             width: 20px;
             height: 20px;
             background: white;
@@ -169,13 +169,33 @@
         
         .timeline-item h4 {
             color: #2e7d32;
-            margin-bottom: 10px;
-            font-size: 20px;
+            margin-bottom: 15px;
+            font-size: 22px;
         }
         
         .timeline-item p {
             color: #555;
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+        
+        .history-box {
+            background: #fff9e6;
+            padding: 15px;
+            border-right: 3px solid #ffa726;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+        
+        .history-box h5 {
+            color: #ef6c00;
             margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        .history-box p {
+            color: #e65100;
+            font-size: 14px;
             line-height: 1.7;
         }
         
@@ -185,43 +205,6 @@
             border-right: 3px solid #4caf50;
             margin: 10px 0;
             border-radius: 6px;
-        }
-        
-        .attraction-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 25px 0;
-        }
-        
-        .attraction-card {
-            background: linear-gradient(135deg, #fff 0%, #f5f5f5 100%);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: all 0.3s;
-        }
-        
-        .attraction-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-        }
-        
-        .attraction-icon {
-            font-size: 35px;
-            margin-bottom: 12px;
-        }
-        
-        .attraction-card h5 {
-            color: #2e7d32;
-            margin-bottom: 8px;
-            font-size: 17px;
-        }
-        
-        .attraction-card p {
-            color: #666;
-            font-size: 13px;
-            line-height: 1.5;
         }
         
         .tips-section {
@@ -344,7 +327,7 @@
                         <div class="info-label">הקטרים (1,000 אקר)</div>
                     </div>
                     <div class="info-box">
-                        <div class="info-value">~4 ק"מ</div>
+                        <div class="info-value">~3 ק"מ</div>
                         <div class="info-label">מסלול ההליכה</div>
                     </div>
                     <div class="info-box">
@@ -358,19 +341,19 @@
                 </div>
             </div>
 
-            <h2 class="section-title">🚶‍♂️ מסלול הליכה בסטנלי פארק</h2>
+            <h2 class="section-title">🚶‍♂️ המסלול המזרחי-צפוני (ריאלי!)</h2>
             
             <div class="intro-box">
                 <h4>ℹ️ על המסלול</h4>
                 <p>
-                    מסלול הליכה מקוצר שמכסה את האטרקציות החשובות ביותר בסטנלי פארק. הסיוול המלא הוא 8.8 ק"מ ולוקח 2.5-3 שעות הליכה בלבד, אז המסלול הזה מתמקד ב<strong>חצי הצפוני-מזרחי</strong> - החלק הכי יפה עם כל האטרקציות המרכזיות!
+                    מסלול הליכה מתוכנן בקפידה לאורך <strong>הצד המזרחי-צפוני</strong> של סטנלי פארק. המסלול מכסה את 4 האטרקציות החשובות ביותר: עמודי הטוטם, התותח ההיסטורי, פסל הצוללת, ונקודת התצפית הצפונית. זה המסלול הכי פופולרי בקרב תיירים כי הוא ריאלי, נגיש, וכולל את כל המקומות האיקוניים!
                 </p>
                 <div class="time-details">
                     <strong>זמנים:</strong><br>
-                    🚶 הליכה: ~2 שעות<br>
-                    📸 עצירות: ~1 שעה<br>
+                    🚶 הליכה: ~1.5 שעות<br>
+                    📸 עצירות: ~1.5 שעות<br>
                     💰 עלות: חינם!<br>
-                    📏 מרחק: ~4 ק"מ
+                    📏 מרחק: ~3 ק"מ (הלוך ושוב)
                 </div>
             </div>
 
@@ -381,161 +364,212 @@
             <div class="map-info">
                 <p style="color: #e65100; font-weight: bold; margin-bottom: 8px;">💡 איך להשתמש במפה:</p>
                 <p>• <strong>לחץ על הסמנים</strong> כדי לראות מידע על כל אטרקציה</p>
-                <p>• <strong>הקו האדום</strong> - המסלול שלך לאורך ה-Seawall</p>
-                <p>• <strong>הקו הכחול</strong> - מסלול החזרה דרך שבילים פנימיים</p>
+                <p>• <strong>הקו האדום</strong> - המסלול שלך לאורך ה-Seawall (קדימה)</p>
+                <p>• <strong>הקו הכחול</strong> - מסלול החזרה דרך שבילים פנימיים (קיצור דרך)</p>
                 <p>• <strong>זום והזז</strong> את המפה כדי לראות פרטים</p>
             </div>
 
-            <h2 class="section-title">⏰ לוח זמנים מפורט</h2>
+            <h2 class="section-title">⏰ לוח זמנים מפורט עם היסטוריה</h2>
 
             <div class="timeline">
                 <div class="timeline-item">
                     <span class="time-badge">10:00-10:15 | התחלה</span>
                     <h4>🚶 מBurrard Station → כניסה לפארק</h4>
-                    <p>הלך מתחנת Burrard צפונה לכיוון Coal Harbour. תעקוב אחרי השילוט לסטנלי פארק. ברגע שתגיע לסיוול, תתחיל ללכת <strong>נגד כיוון השעון</strong>.</p>
+                    <p>הלך מתחנת Burrard צפונה לכיוון Coal Harbour. תעקוב אחרי השילוט "Stanley Park". ברגע שתגיע לסיוול, תתחיל ללכת <strong>נגד כיוון השעון</strong> (זה הכיוון המומלץ להולכי רגל).</p>
                     <div class="highlight">
                         <strong>💡 טיפ:</strong> נתיב הולכי הרגל הוא החיצוני (ליד המים). האופניים בנתיב הפנימי.
                     </div>
+                    <div class="history-box">
+                        <h5>📜 היסטוריה של Coal Harbour</h5>
+                        <p>Coal Harbour קיבל את שמו בשנות ה-1860 כשהתגלה פחם באזור. למרות שמעולם לא היה כאן כרייה מסחרית של פחם, השם נשאר. היום זה אחד האזורים היוקרתיים ביותר בונקובר עם דירות יוקרה, מרינה, ונוף מדהים על הרי הצפון.</p>
+                    </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="time-badge">10:15-10:30 | אטרקציה #1</span>
+                    <span class="time-badge">10:15-10:35 | אטרקציה #1</span>
                     <h4>🗿 Totem Poles - עמודי הטוטם</h4>
-                    <p>האטרקציה הכי פופולרית בפארק! 9 עמודי טוטם מפוארים של עמי First Nations. כל עמוד מספר סיפור על תרבות, אגדות, והיסטוריה.</p>
-                    <p><strong>זמן:</strong> 10-15 דקות לצילומים | <strong>מיקום:</strong> Brockton Point, 1.5 ק"מ מהכניסה</p>
+                    <p>האטרקציה הכי פופולרית בכל קולומביה הבריטית! 9 עמודי טוטם מפוארים המייצגים עמים שונים של First Nations. כל עמוד גבוה עד 13 מטר ומגולף מעץ ארז אדום מערבי.</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 ההיסטוריה של עמודי הטוטם</h5>
+                        <p><strong>שנות ה-1920:</strong> ועד הפארק התחיל לרכוש עמודי טוטם מ-Alert Bay (אי ונקובר) וממקומות נוספים. הרעיון המקורי היה לבנות כפר משוחזר של First Nations בפארק.</p>
+                        <p><strong>1924:</strong> ארבעת העמודים הראשונים הוצבו ליד Lumberman's Arch. חלק מהעמודים נחצבו כבר בשנות ה-1880!</p>
+                        <p><strong>1962:</strong> כל העמודים הועברו ל-Brockton Point בגלל בניית כביש מעל Lumberman's Arch.</p>
+                        <p><strong>שנות ה-1980:</strong> רבים מהעמודים המקוריים נשלחו למוזיאונים לשימור, והוזמנו העתקים חדשים מגַלְפִים מקומיים.</p>
+                        <p><strong>2009:</strong> העמוד התשיעי והאחרון נוסף - Rose Cole Yelton Memorial Pole מאת אמן Squamish מקומי, לזכר תושבי Brockton Point.</p>
+                    </div>
+                    
+                    <p><strong>עובדות מעניינות:</strong></p>
+                    <p>• העמודים מייצגים את עמי Haida, Kwakwaka'wakw, Tlingit, Nuxalt ו-Squamish</p>
+                    <p>• כל עמוד מספר סיפור - על אבות קדמונים, אגדות, או אירועים משפחתיים חשובים</p>
+                    <p>• הסמלים כוללים: נשר (ממלכת האוויר), לוויתן (אדון הים), זאב (גאון היבשה), צפרדע (הקישור בין יבשה לים)</p>
+                    <p>• העמודים לא היו אלילים ולא סגדו להם - הם "תעודות זהות" משפחתיות</p>
+                    
+                    <p><strong>זמן:</strong> 15-20 דקות לצילומים וקריאת הלוחות | <strong>מיקום:</strong> Brockton Point, 1.5 ק"מ מהכניסה</p>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="time-badge">10:30-10:35 | אטרקציה #2</span>
+                    <span class="time-badge">10:35-10:45 | אטרקציה #2</span>
                     <h4>💣 Nine O'Clock Gun - התותח</h4>
-                    <p>תותח ימי היסטורי מ-1816 שיורה כל ערב בשעה 21:00 כבר 100+ שנה! משמש להודעה על זמן לספינות בימי קדם.</p>
-                    <p><strong>זמן:</strong> 5 דקות | <strong>ממש ליד</strong> עמודי הטוטם - אפשר לבקר בשניהם ביחד</p>
-                </div>
-
-                <div class="timeline-item">
-                    <span class="time-badge">10:35-10:50 | הליכה + אטרקציה #3</span>
-                    <h4>🧜‍♀️ Girl in a Wetsuit - פסל ביג</h4>
-                    <p>פסל ברונזה חמוד של צוללת יושבת על סלע בים. זו הגרסה של ונקובר לבת-ים הקטנה של קופנהגן!</p>
-                    <p><strong>זמן:</strong> 5-10 דקות | <strong>מיקום:</strong> 400 מטר הליכה מהתותח לאורך הסיוול</p>
-                </div>
-
-                <div class="timeline-item">
-                    <span class="time-badge">10:50-11:10 | הליכה + אטרקציה #4</span>
-                    <h4>🪨 Siwash Rock - הסלע האגדי</h4>
-                    <p>סלע ים מרשים בן 32 מיליון שנה! בעל אגדה מרתקת של עמי Squamish. חובה לעצור ולקרוא את הסיפור!</p>
-                    <div class="highlight">
-                        <strong>📸 מקום צילום מושלם:</strong> הנוף הכי דרמטי בפארק - סלע דרמטי, יער ירוק, אוקיינוס כחול.
+                    <p>תותח ימי היסטורי שיורה כל ערב בשעה 21:00 בדיוק - מסורת של למעלה מ-100 שנה! הפיצוץ כל כך חזק שאפשר לשמוע אותו בכל רחבי ונקובר.</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 ההיסטוריה של התותח</h5>
+                        <p><strong>1816:</strong> התותח המקורי יוצר בבריטניה ושימש על ספינות הצי המלכותי.</p>
+                        <p><strong>1894:</strong> התותח הוצב ב-Brockton Point כדי לסמן את הזמן לספינות בנמל ונקובר. לפני רדיו ושעונים מדויקים, ספינות היו תלויות בסימנים חזותיים וקוליים כדי לסנכרן את השעונים שלהן.</p>
+                        <p><strong>למה 21:00?</strong> בשעה זו רוב האנשים היו בבית וזיהוי הזמן היה קריטי לספינות שעגנו בנמל.</p>
+                        <p><strong>מלחמת העולם הראשונה:</strong> התותח שימש גם כאזהרה - ירייה אחת ב-21:00 משמעה "הכל בסדר", אך יריות נוספות היו אמורות להתריע על סכנה.</p>
+                        <p><strong>היום:</strong> התותח עדיין יורה כל ערב על ידי פארקס קנדה. זו המסורת הארוכה ביותר מסוגה בקנדה!</p>
                     </div>
-                    <p><strong>זמן:</strong> 10-15 דקות | <strong>יש לוח הסבר</strong> על האגדה והגיאולוגיה</p>
+                    
+                    <p><strong>עובדות מעניינות:</strong></p>
+                    <p>• התותח משתמש באבק שריפה בלבד - אין פגז אמיתי</p>
+                    <p>• ב-1960 תלמידי הנדסה מ-UBC "גנבו" את התותח כחלק ממסורת הקונדסות - הוא הוחזר תוך 24 שעות</p>
+                    <p>• עוצמת הקול: כ-130 דציבל - כמו מטוס סילון!</p>
+                    
+                    <p><strong>זמן:</strong> 5-10 דקות | <strong>ממש ליד</strong> עמודי הטוטם - אפשר לבקר בשניהם ביחד</p>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="time-badge">11:10-11:50 | הליכה לצפון</span>
+                    <span class="time-badge">10:45-11:05 | הליכה + אטרקציה #3</span>
+                    <h4>🧜‍♀️ Girl in a Wetsuit - הצוללת</h4>
+                    <p>פסל ברונזה מקסים של אישה בחליפת צלילה יושבת על סלע בים. זו הגרסה של ונקובר לבת-הים הקטנה של קופנהגן - אבל עם טוויסט מודרני!</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 ההיסטוריה של הפסל</h5>
+                        <p><strong>1968:</strong> עורך דין מקומי, Douglas Brown, רצה ליצור אנדרטה בהשראת בת-הים הקטנה של קופנהגן. הוא פנה לפסל Elek Imredy.</p>
+                        <p><strong>האמן:</strong> Elek Imredy (1912-1994) היה פסל יליד הונגריה שהיגר לקנדה ב-1957. הוא היה ידוע ביצירת פסלים ריאליסטיים.</p>
+                        <p><strong>החלטה יצירתית:</strong> Imredy סירב ליצור העתק של בת-הים הקטנה. הוא אמר: "אני לא מאמין שצריך לנו עותק של בת-הים. היא סמל לגיטימי של קופנהגן... הצעתי צוללת בגודל טבעי. באותו זמן צלילה הייתה פופולרית מאוד בונקובר, וחשוב לא פחות - לא הייתה פסל דומה בשום מקום בעולם. זה היה רעיון חדש."</p>
+                        <p><strong>הדגם:</strong> הפסל מבוסס על חברה של Imredy, Debra Harrington. היא לא הייתה מוכנה להצטלם עירום, אז החליפת הצלילה פתרה את הבעיה!</p>
+                        <p><strong>10 ביוני 1972:</strong> הפסל נחשף בטקס רשמי. היה כאן פולמוס - חלק האשימו שזה העתקה של בת-הים, אבל Imredy הגן על המקוריות שלו.</p>
+                        <p><strong>הייצור:</strong> הפסל נוצר תחילה מחימר בסטודיו של Imredy, אז נוצר תבנית גבס, ולבסוף נשלח לרומא שם נוצר בברונזה.</p>
+                    </div>
+                    
+                    <p><strong>עובדות מעניינות:</strong></p>
+                    <p>• הפסל מייצג את התלות של ונקובר בים - דיג, ספנות, וספורט ימי</p>
+                    <p>• משקל הפסל: כ-90 ק"ג</p>
+                    <p>• הפסל "עבר מהפך" לאורך השנים - ב-2011 לבש חולצת Canucks, ובמקרים אחרים אמבטיה ומקלחת (קונדס של סטודנטים)</p>
+                    <p>• ציפורי קורמורן אוהבות לשבת על הפסל - לפעמים רואים את הפסל עם "כובע" של ציפור!</p>
+                    <p>• המיקום על הסלע משתנה לפי הגאות והשפל - לפעמים הסלע כמעט מכוסה במים</p>
+                    
+                    <p><strong>זמן:</strong> 10-15 דקות | <strong>מיקום:</strong> כ-800 מטר הליכה מהתותח לאורך הסיוול</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="time-badge">11:05-11:45 | הליכה לצפון</span>
                     <h4>🌲 הליכה ל-Prospect Point</h4>
-                    <p>הקטע הכי ארוך - בערך 40 דקות הליכה נעימה דרך היער לאורך הסיוול. תהנה מהנוף, האוויר הצח, והשקט של הטבע.</p>
-                    <p><strong>טיפ:</strong> זה הזמן ליהנות מהיער הגשום החופי, לצפות בציפורים ובאוניות במפרץ.</p>
+                    <p>הקטע הכי ארוך במסלול - בערך 40 דקות הליכה יפהפייה דרך יער הגשם החופי לאורך הסיוול. תהנה מנוף מדהים על Burrard Inlet, אוניות חולפות, והרי הצפון.</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 על הסיוול (Seawall)</h5>
+                        <p><strong>1917:</strong> בנייה של הסיוול החלה במטרה להגן על החוף משחיקה. המאסטר בלדר James Cunningham היה אחראי על הפרויקט.</p>
+                        <p><strong>60 שנות בנייה!</strong> הסיוול נבנה במשך כמעט 60 שנה - מ-1917 עד 1971. זה אחד מפרויקטי הבנייה הארוכים ביותר בהיסטוריה של ונקובר.</p>
+                        <p><strong>היום:</strong> הסיוול מקיף את כל סטנלי פארק - 8.8 ק"מ, והוא חלק ממערכת סיוולים שמגיעה ל-28 ק"מ סביב כל ונקובר.</p>
+                        <p><strong>פופולריות:</strong> מיליוני אנשים הולכים, רצים, ורוכבים על הסיוול מדי שנה - זו אחת האטרקציות הכי פופולריות בקנדה!</p>
+                    </div>
+                    
+                    <p><strong>מה תראה בדרך:</strong></p>
+                    <p>• יער גשם חופי עתיק עם עצי ארז, אשוח, וכליל ענקיים בני מאות שנים</p>
+                    <p>• טחב ושרכים מכסים כמעט כל משטח - תחושה של "Jurassic Park"</p>
+                    <p>• אוניות מכולות ואניות תיור חולפות דרך First Narrows</p>
+                    <p>• Lions Gate Bridge מתקרב - אחד הגשרים האיקוניים ביותר בקנדה</p>
+                    <p>• הרי הצפון (North Shore Mountains) ברקע - מכוסים שלג ברוב השנה</p>
+                    
+                    <p><strong>טיפ:</strong> זה הזמן ליהנות מהשקט, האוויר הצח, וקסם הטבע. חפשו נשרים, הביבונים, וציפורים!</p>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="time-badge">11:50-12:20 | אטרקציה #5</span>
+                    <span class="time-badge">11:45-12:20 | אטרקציה #4</span>
                     <h4>🌉 Prospect Point - הנקודה הצפונית!</h4>
-                    <p>זו הנקודה הרחוקה ביותר במסלול שלך! נוף מטורף על Lions Gate Bridge, North Shore Mountains, ואוקיינוס.</p>
-                    <div class="highlight">
-                        <strong>🍽️ אופציה:</strong> Prospect Point Cafe - קפה/חטיף עם נוף פנורמי. יקר קצת אבל הנוף שווה!
+                    <p>זו הנקודה הגבוהה והצפונית ביותר של סטנלי פארק! נוף פנורמי 360 מעלות מדהים על Lions Gate Bridge, North Shore Mountains, Burrard Inlet, ואוקיינוס השקט.</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 ההיסטוריה של Prospect Point</h5>
+                        <p><strong>השם המקורי:</strong> בשפת Squamish, המקום נקרא "Chay-thoos" שמשמעותו "גדה גבוהה". לפי המסורת המקומית, בתוך הצוקים חי רוח עם כוח להביא סערות וגשם.</p>
+                        <p><strong>1888:</strong> כשהוקדש סטנלי פארק, לורד סטנלי (מושל כללי קנדה) נסע בתהלוכה דרך הפארק דווקא ל-Prospect Point כדי לבצע את טקס ההקדשה הרשמי.</p>
+                        <p><strong>1888:</strong> באותה שנה הוקם המגדלור הראשון ב-Prospect Point - אור קבוע לבן מתוך חדר פנסים מרובע.</p>
+                        <p><strong>1904:</strong> נוסף חדר נוסף לבית שומר המגדלור - משפחת שומר המגדלור חייתה בתנאים צפופים מאוד.</p>
+                        <p><strong>1910:</strong> הוקמה תחנת איתות שעזרה לספינות להימנע מהתנגשויות ב-First Narrows. התחנה הייתה גבוהה 67 מטר מעל הים!</p>
+                        <p><strong>1938:</strong> נבנה Lions Gate Bridge ממש ליד Prospect Point - אחד מהפרויקטים המשמעותיים ביותר בהיסטוריה של ונקובר.</p>
+                        <p><strong>1948:</strong> נבנה המגדלור הנוכחי - מגדל בטון לבן עם פס אדום אחד.</p>
+                        <p><strong>15 דצמבר 2006:</strong> סערת רוח הרסנית (Windstorm) פגעה ב-Prospect Point בצורה הכי קשה - מעל 10,000 עצים נפלו בפארק, רובם ליד Prospect Point. החלק הזה היה סגור לציבור במשך חודשים.</p>
                     </div>
-                    <p><strong>זמן:</strong> 20-30 דקות | <strong>יש מצפה</strong> עם טלסקופים ושירותים</p>
+                    
+                    <p><strong>מה תראה:</strong></p>
+                    <p>• <strong>Lions Gate Bridge:</strong> גשר תלוי ירוק מפורסם שנבנה ב-1938. אורך: 1,823 מטר. מחבר את ונקובר עם West Vancouver ו-North Vancouver</p>
+                    <p>• <strong>First Narrows:</strong> המעבר הצר בין ונקובר להרי הצפון - זרם מים חזק מאוד</p>
+                    <p>• <strong>North Shore Mountains:</strong> רכס הרים מרשים כולל Grouse Mountain, Mount Seymour, ו-Cypress Mountain</p>
+                    <p>• <strong>אניות מכולות:</strong> תראה אוניות ענק נכנסות ויוצאות מנמל ונקובר - אחד הנמלים העמוסים באמריקה הצפונית</p>
+                    
+                    <div class="highlight">
+                        <strong>🍽️ Prospect Point Cafe:</strong> בית קפה עם נוף פנורמי מדהים. קצת יקר אבל המיקום שווה! גלידה, קפה, ומנות קלות. יש גם אזור פיקניק חיצוני חינמי.
+                    </div>
+                    
+                    <p><strong>אנדרטאות במקום:</strong></p>
+                    <p>• אנדרטה ל-SS Beaver - ספינת הקיטור הראשונה באוקיינוס השקט שטרפדה כאן ב-1888</p>
+                    <p>• אנדרטה לסערת 2006 - מזכירה את ההרס העצום והשיקום</p>
+                    
+                    <p><strong>זמן:</strong> 25-35 דקות | <strong>מתקנים:</strong> שירותים, בית קפה, חנות מזכרות, מצפה תצפית</p>
                 </div>
 
                 <div class="timeline-item">
                     <span class="time-badge">12:20-12:50 | חזרה</span>
                     <h4>🔙 חזרה דרך השבילים הפנימיים</h4>
-                    <p>במקום לחזור לאורך הסיוול (ארוך מדי!), תיקח את אחד השבילים הפנימיים שחוצים את הפארק בחזרה לכיוון Coal Harbour. זה קיצור דרך דרך היער!</p>
-                    <div class="highlight">
-                        <strong>🗺️ טיפ:</strong> עקוב אחרי השילוט "Park Exit" או "Coal Harbour" - השבילים מסומנים היטב.
+                    <p>במקום לחזור לאורך הסיוול (שייקח עוד 40-50 דקות!), תיקח קיצור דרך דרך אחד השבילים הפנימיים שחוצים את הפארק דרך היער. זה חווייה שונה לגמרי - שקט, צל נעים, וטבע עבות.</p>
+                    
+                    <div class="history-box">
+                        <h5>📜 על השבילים הפנימיים</h5>
+                        <p>רוב השבילים בסטנלי פארק התחילו כ"skid roads" (דרכי גרירה) בסוף המאה ה-19 כשהעצים נכרתו ונגררו החוצה. היום יש בפארק כ-27 ק"מ של שבילים יבשתיים!</p>
+                        <p>השבילים עוברים דרך מה שנשאר מיער הגשם החופי המקורי - חלק מהעצים בני 500-800 שנה!</p>
                     </div>
+                    
+                    <div class="highlight">
+                        <strong>🗺️ טיפ:</strong> עקוב אחרי השילוט "Park Exit" או "Coal Harbour" - השבילים מסומנים בבירור עם שלטים כל כמה מאות מטרים. אם תלך דרך Pipeline Road תחסוך הרבה זמן!
+                    </div>
+                    
+                    <p><strong>מה תראה בדרך:</strong></p>
+                    <p>• יער צפוף עם עצי ארז וכליל ענקיים</p>
+                    <p>• שטיח רצפת יער עשיר בשרכים וטחב</p>
+                    <p>• שלווה מוחלטת - מעט מאוד תיירים משתמשים בשבילים הפנימיים</p>
+                    <p>• סנאים, ציפורים, ולפעמים גם קויוטים (מרחוק - בטוח לחלוטין!)</p>
+                    
+                    <p><strong>זמן:</strong> 25-30 דקות חזרה ל-Coal Harbour</p>
                 </div>
 
                 <div class="timeline-item">
                     <span class="time-badge">12:50-13:30 | סיום</span>
                     <h4>⏰ חזרה ל-Burrard Station</h4>
-                    <p>הלך בחזרה מהפארק לתחנת Burrard. יש לך כ-40 דקות, אז אפשר ללכת ברוגע או לעצור לקפה מהיר ב-Coal Harbour.</p>
-                    <p><strong>אם יש זמן:</strong> קפה ב-Coal Harbour, גלידה ב-Denman Street<br>
-                    <strong>אם ממהרים:</strong> 15-20 דקות הליכה ישר ל-Burrard</p>
-                </div>
-            </div>
-
-            <h2 class="section-title">🎯 כל האטרקציות במקום אחד</h2>
-
-            <div class="attraction-grid">
-                <div class="attraction-card">
-                    <div class="attraction-icon">🗿</div>
-                    <h5>Totem Poles</h5>
-                    <p>9 עמודי טוטם מהדהימים של First Nations. האטרקציה #1 בפארק! כל עמוד עם סיפור אגדי.</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">💣</div>
-                    <h5>Nine O'Clock Gun</h5>
-                    <p>תותח ימי היסטורי מ-1816 שיורה כל ערב בשעה 21:00. מסורת של 100+ שנה!</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🧜‍♀️</div>
-                    <h5>Girl in a Wetsuit</h5>
-                    <p>פסל ברונזה מקסים של צוללת על סלע. הגרסה של ונקובר לבת-ים הקטנה!</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🪨</div>
-                    <h5>Siwash Rock</h5>
-                    <p>סלע ים דרמטי בן 32 מיליון שנה עם אגדה של עמי Squamish. מקום צילום מושלם!</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🌉</div>
-                    <h5>Prospect Point</h5>
-                    <p>הנקודה הצפונית! נוף פנורמי על Lions Gate Bridge, North Shore Mountains ו-Burrard Inlet.</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🌲</div>
-                    <h5>Coastal Rainforest</h5>
-                    <p>יער גשם מהדהים! עצים ענקיים, טחב, אווירה קסומה. לאורך כל הסיוול.</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🦅</div>
-                    <h5>חיות בר</h5>
-                    <p>נשרים, הביבונים, קויוטים, ארנבות וציפורים בכל מקום. שמור את העיניים פקוחות!</p>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-icon">🏛️</div>
-                    <h5>Brockton Point Lighthouse</h5>
-                    <p>מגדלור היסטורי מ-1914. היום נקודת תצפית מעולה על Burrard Inlet!</p>
+                    <p>הלך בחזרה מהפארק לתחנת Burrard. יש לך כ-40 דקות - זמן מספיק ללכת ברוגע, לעצור לקפה אם רוצה, או פשוט להתבונן על הנוף המדהים של Marina ו-Coal Harbour.</p>
+                    
+                    <p><strong>אם יש זמן נוסף:</strong></p>
+                    <p>• <strong>Vancouver Rowing Club:</strong> מבנה היסטורי מ-1911 עם ארכיטקטורה יפהפייה</p>
+                    <p>• <strong>הסיוול של Coal Harbour:</strong> נוף מדהים על מרינה מלאה ביאכטות</p>
+                    <p>• <strong>קפה/גלידה:</strong> יש כמה בתי קפה בדרך חזרה</p>
+                    
+                    <p><strong>אם ממהרים:</strong> 15-20 דקות הליכה ישירה ל-Burrard Station</p>
                 </div>
             </div>
 
             <div class="tips-section">
                 <h3>💡 טיפים חשובים להצלחה</h3>
                 <ul class="tips-list">
-                    <li><strong>נעליים נוחות:</strong> חובה! תהליכו כ-4 ק"מ. נעלי הליכה או ספורט טובות</li>
-                    <li><strong>הביאו מים:</strong> יש מזרקות בפארק אבל לא בכל מקום. בקבוק מים חוצץ</li>
-                    <li><strong>מזג אוויר:</strong> ונקובר יכולה להפתיע! הביאו ג'קט קל גם אם נראה שמשי</li>
-                    <li><strong>טלפון טעון:</strong> למפות, תמונות, ואם תצטרכו לקרוא למונית</li>
-                    <li><strong>הגנה מהשמש:</strong> בקיץ יש הרבה שמש - קרם הגנה ומשקפיים</li>
-                    <li><strong>חיות בר:</strong> אל תאכילו! זה מסוכן להן ואסור בחוק. תצפו מרחוק</li>
-                    <li><strong>שירותים:</strong> יש כמה בפארק - ליד Second Beach, Prospect Point, ועוד</li>
-                    <li><strong>אוכל:</strong> 3 מסעדות בפארק + דוכני מזון. או הביאו פיקניק!</li>
-                    <li><strong>תתחילו מוקדם:</strong> ככל שמוקדם יותר, פחות אנשים ויותר שקט</li>
-                    <li><strong>קחו הפסקות:</strong> אין צורך למהר. תהנו מהנוף, השקט, והטבע!</li>
+                    <li><strong>נעליים נוחות:</strong> חובה! תהליכו כ-3 ק"מ. נעלי הליכה או ספורט טובות</li>
+                    <li><strong>הביאו מים:</strong> יש מזרקות בפארק אבל לא בכל מקום. בקבוק מים מומלץ מאוד</li>
+                    <li><strong>מזג אוויר:</strong> ונקובר יכולה להפתיע! הביאו ג'קט קל גם אם נראה שמשי - יכול להיות קריר ליד המים</li>
+                    <li><strong>טלפון טעון:</strong> למפות, תמונות, וחירום</li>
+                    <li><strong>הגנה מהשמש:</strong> בקיץ יש הרבה שמש מעל המים - קרם הגנה ומשקפיים</li>
+                    <li><strong>חיות בר:</strong> אל תאכילו! זה מסוכן להן ואסור בחוק. אפשר לצפות מרחוק בלבד</li>
+                    <li><strong>שירותים:</strong> יש ליד Totem Poles, Prospect Point, ו-Second Beach</li>
+                    <li><strong>אוכל:</strong> Prospect Point Cafe + דוכני מזון, או הביאו פיקניק</li>
+                    <li><strong>תתחילו מוקדם:</strong> ככל שמוקדם יותר - פחות אנשים, נוף יותר יפה, ויותר שקט</li>
+                    <li><strong>קחו את הזמן:</strong> אין צורך למהר. תהנו מכל תחנה, תקראו את הלוחות, ותצלמו הרבה!</li>
                 </ul>
             </div>
 
             <div class="final-note">
-                <p style="font-size: 22px; margin-bottom: 15px;"><strong>🌲 סטנלי פארק - הפארק העירוני הטוב בעולם! 🌊</strong></p>
+                <p style="font-size: 22px; margin-bottom: 15px;"><strong>🌲 סטנלי פארק - אגדה חיה של ונקובר! 🌊</strong></p>
                 <p>
-                    405 הקטרים של יער גשם, חופים, נוף הרים, וחיות בר - הכל במרכז העיר! זה לא סתם "פארק" - זה חוויה שלא תשכחו. המסלול שתעברו יכסה את כל האטרקציות המרכזיות: עמודי טוטם היסטוריים, פסלים מרהיבים, סלע בן 32 מיליון שנה, ונוף עוצר נשימה מ-Prospect Point על Lions Gate Bridge וההרים. 3.5 השעות שלכם יהיו מלאות בנופים עוצרי נשימה, היסטוריה מרתקת, ואוויר צח. <strong>תהנו מכל רגע!</strong> 🚶🌲
+                    המסלול שלך כיסה למעלה מ-150 שנות היסטוריה! מהתרבות העשירה של First Nations, דרך התקופה הקולוניאלית, מלחמות עולם, עד לונקובר המודרנית של היום. הלכת על אותם שבילים שעליהם הלכו אינדיאנים לפני אלפי שנים, חיילים במלחמות העולם, והמוני תיירים מכל העולם. עמודי הטוטם, התותח, הפסל, והנוף מ-Prospect Point - כל אלה הם לא סתם אטרקציות, אלא פיסות היסטוריה חיה שממשיכות לספר את הסיפור של המקום המיוחד הזה. <strong>תודה שביקרת, ותחזור בקרוב!</strong> 🚶🌲
                 </p>
             </div>
         </div>
@@ -544,7 +578,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // יצירת המפה עם מרכז בסטנלי פארק
-        const map = L.map('map').setView([49.305, -123.135], 14);
+        const map = L.map('map').setView([49.303, -123.130], 14);
         
         // הוספת שכבת OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -574,42 +608,39 @@
             popupAnchor: [0, -52]
         });
         
-        // נקודות האטרקציה עם קואורדינטות אמיתיות ומדויקות
+        // נקודות האטרקציה עם קואורדינטות מדויקות לאורך הסיוול
         const start = L.marker([49.2889, -123.1233], {icon: orangeIcon}).addTo(map)
             .bindPopup('<b>🚶 נקודת התחלה</b><br>Coal Harbour<br>התחל את ההליכה כאן!');
         
         const totemPoles = L.marker([49.2991, -123.1210], {icon: greenIcon}).addTo(map)
-            .bindPopup('<b>🗿 1. Totem Poles</b><br>Brockton Point<br>10-15 דקות<br>9 עמודי טוטם מדהימים!');
+            .bindPopup('<b>🗿 1. Totem Poles</b><br>Brockton Point<br>15-20 דקות<br>9 עמודי טוטם מדהימים!');
         
-        const gun = L.marker([49.2993, -123.1216], {icon: greenIcon}).addTo(map)
-            .bindPopup('<b>💣 2. Nine O\'Clock Gun</b><br>5 דקות<br>תותח היסטורי מ-1816');
+        const gun = L.marker([49.2993, -123.1220], {icon: greenIcon}).addTo(map)
+            .bindPopup('<b>💣 2. Nine O\'Clock Gun</b><br>5-10 דקות<br>תותח היסטורי מ-1816');
         
         const wetsuit = L.marker([49.3021, -123.1285], {icon: greenIcon}).addTo(map)
-            .bindPopup('<b>🧜‍♀️ 3. Girl in a Wetsuit</b><br>5-10 דקות<br>פסל ברונזה חמוד!');
+            .bindPopup('<b>🧜‍♀️ 3. Girl in a Wetsuit</b><br>10-15 דקות<br>פסל ברונזה חמוד!');
         
-        const siwash = L.marker([49.30882, -123.1560], {icon: greenIcon}).addTo(map)
-            .bindPopup('<b>🪨 4. Siwash Rock</b><br>10-15 דקות<br>סלע בן 32 מיליון שנה!');
+        const prospect = L.marker([49.3141, -123.1415], {icon: redIcon}).addTo(map)
+            .bindPopup('<b>🌉 4. Prospect Point</b><br>25-35 דקות<br>הנקודה הרחוקה ביותר!<br>נוף מדהים על Lions Gate Bridge!');
         
-        const prospect = L.marker([49.31408, -123.14146], {icon: redIcon}).addTo(map)
-            .bindPopup('<b>🌉 5. Prospect Point</b><br>20-30 דקות<br>הנקודה הרחוקה ביותר!<br>נוף מדהים על Lions Gate Bridge!');
-        
-        // מסלול ההליכה - קו אדום מקווקו לאורך הסיוול
+        // מסלול ההליכה - קו אדום מקווקו לאורך הסיוול (נגד כיוון השעון)
         const routePath = [
             [49.2889, -123.1233],  // Start - Coal Harbour
             [49.2920, -123.1225],
             [49.2950, -123.1218],
-            [49.2980, -123.1213],
+            [49.2975, -123.1213],
             [49.2991, -123.1210],  // Totem Poles
-            [49.2993, -123.1216],  // Nine O'Clock Gun
-            [49.3010, -123.1250],
+            [49.2993, -123.1220],  // Nine O'Clock Gun
+            [49.3000, -123.1235],
+            [49.3010, -123.1260],
             [49.3021, -123.1285],  // Girl in a Wetsuit
-            [49.3040, -123.1350],
-            [49.3060, -123.1420],
-            [49.3080, -123.1500],
-            [49.30882, -123.1560], // Siwash Rock
-            [49.3100, -123.1520],
-            [49.3120, -123.1470],
-            [49.31408, -123.14146] // Prospect Point
+            [49.3035, -123.1315],
+            [49.3055, -123.1350],
+            [49.3075, -123.1375],
+            [49.3095, -123.1390],
+            [49.3115, -123.1400],
+            [49.3141, -123.1415]   // Prospect Point
         ];
         
         const route = L.polyline(routePath, {
@@ -619,17 +650,18 @@
             dashArray: '10, 10'
         }).addTo(map);
         
-        // מסלול החזרה - קו כחול דרך שבילים פנימיים
+        // מסלול החזרה - קו כחול דרך שבילים פנימיים (קיצור דרך!)
         const returnPath = [
-            [49.31408, -123.14146], // Prospect Point
-            [49.3120, -123.1400],
-            [49.3100, -123.1380],
-            [49.3070, -123.1350],
-            [49.3040, -123.1320],
-            [49.3010, -123.1290],
-            [49.2980, -123.1260],
-            [49.2950, -123.1245],
-            [49.2889, -123.1233]    // Back to start
+            [49.3141, -123.1415],  // Prospect Point
+            [49.3120, -123.1395],
+            [49.3095, -123.1370],
+            [49.3070, -123.1345],
+            [49.3045, -123.1320],
+            [49.3020, -123.1295],
+            [49.2990, -123.1265],
+            [49.2960, -123.1245],
+            [49.2920, -123.1235],
+            [49.2889, -123.1233]   // Back to start
         ];
         
         const returnRoute = L.polyline(returnPath, {
@@ -640,7 +672,7 @@
         }).addTo(map);
         
         // התאמת המפה להכיל את כל הנקודות
-        const group = L.featureGroup([start, totemPoles, gun, wetsuit, siwash, prospect, route, returnRoute]);
+        const group = L.featureGroup([start, totemPoles, gun, wetsuit, prospect, route, returnRoute]);
         map.fitBounds(group.getBounds().pad(0.1));
     </script>
 </body>
