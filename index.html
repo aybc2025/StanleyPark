@@ -614,7 +614,7 @@
         });
         
         // נקודות האטרקציה עם קואורדינטות מדויקות לאורך הסיוול
-        const start = L.marker([49.300, -123.138], {icon: orangeIcon}).addTo(map)
+        const start = L.marker([49.2960, -123.1406], {icon: orangeIcon}).addTo(map)
     .bindPopup('<b>🚶 נקודת התחלה</b><br>Lost Lagoon<br>התחל את ההליכה כאן!');
         
         const totemPoles = L.marker([49.2991, -123.1210], {icon: greenIcon}).addTo(map)
@@ -631,7 +631,7 @@
         
         // מסלול ההליכה - קו אדום מקווקו לאורך הסיוול (נגד כיוון השעון)
         const routePath = [
-             [49.300, -123.138],    // Start - Lost Lagoon
+             [49.2960, -123.1406],    // Start - Lost Lagoon
     [49.299, -123.135],
     [49.298, -123.130],
     [49.296, -123.125],
@@ -667,7 +667,7 @@
     [49.2990, -123.1265],
     [49.2960, -123.1245],
     [49.2920, -123.1235],
-    [49.300, -123.138]     // Back to Lost Lagoon
+    [49.2960, -123.1406]     // Back to Lost Lagoon
         ];
         
         const returnRoute = L.polyline(returnPath, {
